@@ -1,0 +1,27 @@
+
+.footer {
+    position: fixed;
+    bottom: 0vh;
+    padding: 20px;
+    height: 70px;
+    background-color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer span {
+    font-size: 1.1rem;
+}
+
+.footer span > strong {
+    font-size: 1.2rem;
+    color: #FF0000;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        right: 0;
+        width: calc(100% - 230px);
+    }
+}
